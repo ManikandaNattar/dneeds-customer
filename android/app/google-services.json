@@ -1,0 +1,203 @@
+{
+  "project_info": {
+    "project_number": "687498288968",
+    "firebase_url": "https://daily-needs-275514.firebaseio.com",
+    "project_id": "daily-needs-275514",
+    "storage_bucket": "daily-needs-275514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687498288968:android:8ea67bec71fe9869225d7d",
+        "android_client_info": {
+          "package_name": "com.DailyNeeds.dailyneeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687498288968-4968572oirbf3f3q6bubmbff3jv24cr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "73e88cf6a3890140c3b606c133906f28c04dbd47"
+          }
+        },
+        {
+          "client_id": "687498288968-5858dvtp1gqdgcvvg58u04ciej05sg5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "5195f07de628a7d6f20caae97a54a55d66953ad7"
+          }
+        },
+        {
+          "client_id": "687498288968-594j2g8jgjo5c2t1cg9cnps8ec1vfi09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "fd95701d38581c8e79080887ad4f162e5ced4769"
+          }
+        },
+        {
+          "client_id": "687498288968-6qt2clps96m499eso4bkqq3p6h4q2inp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "0aaa0b5a2dcd186dfc7c9124d17ceb1496d80c41"
+          }
+        },
+        {
+          "client_id": "687498288968-7d4h8g6ifno861atsamo07701qqr5br9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "f5c9c158014319af5eb61917e2b8778ccb2e2ab5"
+          }
+        },
+        {
+          "client_id": "687498288968-a7u0ptq4evime8pbtf595vi8bl11u97u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "c75a32364c60572738e0711d9f21199d92d5da2e"
+          }
+        },
+        {
+          "client_id": "687498288968-clckpal0ubsg0lb7lml0bj33r9uqd94v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "8392e11736bc7dcd8f32239f1b21b5a64280d527"
+          }
+        },
+        {
+          "client_id": "687498288968-cp5ceojrqgilesdsa326i3jmug9baq3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "dae5edfdf80aafb3c8d20f60223b965be5f933c1"
+          }
+        },
+        {
+          "client_id": "687498288968-droq9ir0qdqcbenejecri8tgn29sdp3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "e6a9f87110fe648706a246be6f42743ad01ea621"
+          }
+        },
+        {
+          "client_id": "687498288968-ru7e5coj8fd6us9ua2v7he24h73fjvrn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DailyNeeds.dailyneeds",
+            "certificate_hash": "96e537c5d30efae55329449dfdd2b359a2bdb33e"
+          }
+        },
+        {
+          "client_id": "687498288968-pd0ilqlu9qkt31gb0a9aldp4kromoktg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCaaAFhT5OCCMeZtcKj3aOZbIJH6o9jMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687498288968-pd0ilqlu9qkt31gb0a9aldp4kromoktg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "687498288968-c2m6c045sp8l3gl7gpo7facofd5gcklv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Xvalue.dailyNeeds"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687498288968:android:8c1549d87aefd24b225d7d",
+        "android_client_info": {
+          "package_name": "com.dailyneeds.dneeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687498288968-8q0mje05m9017d9oqr6nj7v7jrrtqg6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyneeds.dneeds",
+            "certificate_hash": "8392e11736bc7dcd8f32239f1b21b5a64280d527"
+          }
+        },
+        {
+          "client_id": "687498288968-h4ficqf80pdp6otc0tiijf13hiuo82t4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyneeds.dneeds",
+            "certificate_hash": "96e537c5d30efae55329449dfdd2b359a2bdb33e"
+          }
+        },
+        {
+          "client_id": "687498288968-he99n1ak3kf4l6lot0jjdf17ac3sv28o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyneeds.dneeds",
+            "certificate_hash": "5195f07de628a7d6f20caae97a54a55d66953ad7"
+          }
+        },
+        {
+          "client_id": "687498288968-k23hbn817gqj3omn8j1tmt4m0kfk0mu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyneeds.dneeds",
+            "certificate_hash": "fd95701d38581c8e79080887ad4f162e5ced4769"
+          }
+        },
+        {
+          "client_id": "687498288968-vcd8k7allpirmtko70q28o75opspcbsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyneeds.dneeds",
+            "certificate_hash": "dae5edfdf80aafb3c8d20f60223b965be5f933c1"
+          }
+        },
+        {
+          "client_id": "687498288968-pd0ilqlu9qkt31gb0a9aldp4kromoktg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCaaAFhT5OCCMeZtcKj3aOZbIJH6o9jMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687498288968-pd0ilqlu9qkt31gb0a9aldp4kromoktg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "687498288968-c2m6c045sp8l3gl7gpo7facofd5gcklv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Xvalue.dailyNeeds"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

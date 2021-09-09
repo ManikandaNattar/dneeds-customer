@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Mani\\WF\\flutter_dailyneeds\\build\\android_intent\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ml\\values-ml.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\XVALUE LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\5be509eac75a87996f7f2a8c2c76ae86\\core-1.1.0\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Mani\\WF\\flutter_dailyneeds\\build\\android_intent\\intermediates\\res\\merged\\debug\\values-ml\\values-ml.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\XVALUE LENOVO\\.gradle\\caches\\transforms-2\\files-2.1\\5be509eac75a87996f7f2a8c2c76ae86\\core-1.1.0\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

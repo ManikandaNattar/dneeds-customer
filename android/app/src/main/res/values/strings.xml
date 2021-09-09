@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">needsdaily</string>
+    <string name="facebook_app_id">891896371308661</string>
+    <string name="fb_login_protocol_scheme">fb891896371308661</string>
+    <string name="facebook_app_id_old">2630980540556107</string>
+    <string name="fb_login_protocol_scheme_old">fb2630980540556107</string>
+
+</resources>

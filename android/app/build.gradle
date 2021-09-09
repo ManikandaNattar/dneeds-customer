@@ -1,0 +1,118 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 29
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    aaptOptions { cruncherEnabled = false }
+    lintOptions {
+        checkReleaseBuilds false // Add this
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("D:/Mani/WF/Flutter_Project/flutter_dailyneeds/android/app/keystore.jks")
+            storePassword "Dailyneeds2020"
+            keyAlias "Dailyneeds"
+            keyPassword "Dailyneeds2020"
+
+            // Optional, specify signing versions used
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        //don't change the application id
+        applicationId "com.dailyneeds.dneeds"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 14
+        versionName "1.21"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            //debuggable true
+//            useProguard true
+//            signingConfig signingConfigs.release
+//            minifyEnabled false
+//            //shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //old code
+//            shrinkResources true
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+//                    'proguard-rules.pro'
+
+            //new code
+            signingConfig signingConfigs.release
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.firebase:firebase-analytics:16.0.1'
+    implementation 'com.google.firebase:firebase-auth:9.2.1'
+    implementation 'com.twilio:voice-android:3.1.2'
+    implementation 'com.twilio:audioswitch:0.1.3'
+    implementation 'com.twilio:voice-android:5.3.0'
+    implementation group: 'com.twilio.sdk', name: 'twilio', version: '7.9.0'
+    implementation 'com.koushikdutta.ion:ion:2.1.8'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+//    implementation 'com.android.support:support-annotations:28.0.0'
+    // implementation 'com.android.support:support-media-compat:28.0.0'
+}
+apply plugin : 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
